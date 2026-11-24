@@ -1,6 +1,6 @@
 # 결선 심사 시스템
 
-![결선 심사 시스템](docs/images/thumbnail.png)
+![결선 심사 시스템](https://raw.githubusercontent.com/yezin013/AXchallenge/assets/thumbnail.png)
 
 2026 공공 AI 대전환 챌린지 결선(2026. 11. 25., KINTEX) 현장 심사에 쓰는 웹 시스템입니다.
 심사위원은 접속 코드로 들어와 팀별 자료를 보며 점수를 입력·제출하고, 운영진은 같은 화면에서 진행 현황을 보고 집계·수상 결과·서명을 확정합니다.
@@ -16,7 +16,7 @@
 
 | 메인 | 접속 코드 입력 | 세션 선택 |
 |---|---|---|
-| ![메인](docs/images/01-main.png) | ![접속](docs/images/02-login.png) | ![세션 선택](docs/images/03-session-select.png) |
+| ![메인](https://raw.githubusercontent.com/yezin013/AXchallenge/assets/01-main.png) | ![접속](https://raw.githubusercontent.com/yezin013/AXchallenge/assets/02-login.png) | ![세션 선택](https://raw.githubusercontent.com/yezin013/AXchallenge/assets/03-session-select.png) |
 
 - 심사위원·운영진은 각자 받은 접속 코드로 들어갑니다.
 - 세션 1·2를 모두 심사하는 위원은 같은 코드로 두 세션을 오갑니다.
@@ -25,23 +25,23 @@
 
 **점수 입력**: 팀별로 지표마다 5단계 중 하나를 고르면 자동 저장됩니다. 이해관계가 있는 팀은 평가 회피를 표시합니다. 다른 위원의 점수는 보이지 않습니다.
 
-![점수 입력](docs/images/04-judge-score.png)
+![점수 입력](https://raw.githubusercontent.com/yezin013/AXchallenge/assets/04-judge-score.png)
 
 **팀 자료 보기**: 제출 자료(구동안내서·시연영상)와 최종 발표자료를 화면 안에서 바로 엽니다.
 
 | 발표자료(PDF) | 시연영상 |
 |---|---|
-| ![PDF 보기](docs/images/05-judge-material-pdf.png) | ![영상 보기](docs/images/06-judge-material-video.png) |
+| ![PDF 보기](https://raw.githubusercontent.com/yezin013/AXchallenge/assets/05-judge-material-pdf.png) | ![영상 보기](https://raw.githubusercontent.com/yezin013/AXchallenge/assets/06-judge-material-video.png) |
 
 **합산 점수**: 본인이 입력한 팀별 점수와 합계를 한눈에 확인하고, 모든 팀을 평가한 뒤 제출합니다.
 
-![합산 점수](docs/images/07-judge-sum.png)
+![합산 점수](https://raw.githubusercontent.com/yezin013/AXchallenge/assets/07-judge-sum.png)
 
 **서명·확정**: 심사위원 전원이 제출하면 결과 확인 서명을 남깁니다. 서명 뒤 점수가 바뀌면 서명은 무효 처리됩니다.
 
 | 서명 | 서명 완료 |
 |---|---|
-| ![서명](docs/images/08-judge-sign.png) | ![서명 완료](docs/images/09-judge-signed.png) |
+| ![서명](https://raw.githubusercontent.com/yezin013/AXchallenge/assets/08-judge-sign.png) | ![서명 완료](https://raw.githubusercontent.com/yezin013/AXchallenge/assets/09-judge-signed.png) |
 
 ### 운영진
 
@@ -49,25 +49,25 @@
 
 | 심사위원 | 결선 진출팀 |
 |---|---|
-| ![심사위원 등록](docs/images/10-admin-setup.png) | ![결선 진출팀](docs/images/11-admin-teams.png) |
+| ![심사위원 등록](https://raw.githubusercontent.com/yezin013/AXchallenge/assets/10-admin-setup.png) | ![결선 진출팀](https://raw.githubusercontent.com/yezin013/AXchallenge/assets/11-admin-teams.png) |
 
 **자료 관리**: 팀별 제출 자료와 최종 발표자료를 올리고 지웁니다. PDF·영상(mp4)·이미지, 파일당 50MB 이하.
 
-![자료 관리](docs/images/12-admin-materials.png)
+![자료 관리](https://raw.githubusercontent.com/yezin013/AXchallenge/assets/12-admin-materials.png)
 
 **진행 현황**: 심사위원별 접속 코드 발급·재발급, 제출 여부와 시각, 제출 취소, 위원별 입력 진행률을 봅니다.
 
-![진행 현황](docs/images/13-admin-progress.png)
+![진행 현황](https://raw.githubusercontent.com/yezin013/AXchallenge/assets/13-admin-progress.png)
 
 **최종 집계**: 수상 결과가 자동으로 정해지고, 집계표에서 최고·최저 제외 점수와 트림평균을 확인합니다. 운영진은 사유를 남기고 점수를 조정할 수 있습니다.
 
 | 수상 결과 | 최종 집계표 |
 |---|---|
-| ![수상 결과](docs/images/14-admin-awards.png) | ![집계표](docs/images/15-admin-table.png) |
+| ![수상 결과](https://raw.githubusercontent.com/yezin013/AXchallenge/assets/14-admin-awards.png) | ![집계표](https://raw.githubusercontent.com/yezin013/AXchallenge/assets/15-admin-table.png) |
 
 **서명·확정**: 위원별 서명 현황을 보고, 서명 포함 집계표를 인쇄(PDF)하거나 집계를 확정(잠금)합니다.
 
-![서명 현황](docs/images/16-admin-sign.png)
+![서명 현황](https://raw.githubusercontent.com/yezin013/AXchallenge/assets/16-admin-sign.png)
 
 그 밖에 엑셀 저장, 백업 저장·불러오기, 집계표 인쇄를 지원합니다.
 
