@@ -1,0 +1,9 @@
+node_modules/
+dist/
+dist-demo/
+dist-d*/
+dist-corp*/
+
+.vercel
+.env*
+dist-online/

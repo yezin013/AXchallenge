@@ -1,0 +1,9 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": "vite",
+  "buildCommand": "THEME=d9 VITE_LAYOUT=corp VITE_ONLINE=1 vite build",
+  "outputDirectory": "dist",
+  "regions": [
+    "icn1"
+  ]
+}
